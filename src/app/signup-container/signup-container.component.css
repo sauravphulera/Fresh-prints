@@ -1,0 +1,57 @@
+.signin-helloFriendClass {
+    font-family: "Lato", Helvetica, Arial, serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 36px;
+    color: rgba(51, 122, 183, 1);
+  }
+  .signin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 99%;
+    flex-direction: column;
+  }
+  .oruseyouremailad {
+    font-family: "Lato", Helvetica, Arial, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    color: rgba(173, 173, 173, 1);
+    text-align: center;
+    line-height: 29px;
+  }
+  .Input_Search {
+      background: url('src/assets/email.svg') top left no-repeat;
+      height: 30px;
+      padding-left: 25px;
+    }
+    .Input_Search {
+      border-radius: 6px;
+      height: 41px;
+      width: 100%;
+      border: 2px solid lightgray;
+      padding-left: 3.0rem;
+      padding-top: 2px;
+      font-size: 17px;
+      background-position: 2.35% 55%;
+    }
+    .Input_Search:hover {
+      border: 2px solid gray;
+    }
+    input:focus {
+        outline: none;
+    }
+    .checkbox-field {
+      display: flex;
+      width: 279px;
+      justify-content: space-evenly;
+    }
+    .signinBtn {
+      width: 238px;
+      height: 46px;
+      border-radius: 4vw;
+      background: rgba(51, 122, 183, 1);
+      color: white;
+      font-size: 19px;
+    }

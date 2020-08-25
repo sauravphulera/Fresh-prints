@@ -1,22 +1,22 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <div class="container" #container>
-  <div class="form signup-container">
+  <div class="form signup-container" *ngIf="isSignUpClicked">
     <app-signup-container></app-signup-container>
   </div>
-  <div class="form signin-container">
+  <div class="form signin-container" *ngIf="!isSignUpClicked">
     <app-signin-container></app-signin-container>
   </div>
   <div class="overlay-container">
     <div class="overlay">
       <div class="overlay-panel overlay-left">
-        <h1>Welcome Back!</h1>
-        <p>To keep connected with us please login with your personal info</p>
-        <button id="signIn" (click)="onSignInClick()">Sign In</button>
+        <h1>Allready Have an account!</h1>
+        <p class="subtitle-text">To keep connected with us please login with your personal info</p>
+        <button id="signIn" (click)="onSignInClick()" class="signinBtn">Sign In</button>
       </div>
       <div class="overlay-panel overlay-right">
-        <h1>Hello, Friend!</h1>
-        <p>Enter your personal details and start journey with us</p>
-        <button id="signUp" (click)="onSignUpClick()">Sign Up</button>
+        <h1>Don't have an account!</h1>
+        <p class="subtitle-text">Welcome Back! We have missed you!</p>
+        <button id="signUp" class="signinBtn" (click)="onSignUpClick()">Sign Up</button>
       </div>
     </div>
   </div>
