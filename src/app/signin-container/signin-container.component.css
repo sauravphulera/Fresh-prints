@@ -55,3 +55,9 @@
     color: white;
     font-size: 19px;
   }
+  .signin-icons {
+    display: flex;
+    width: 11%;
+    min-width: 60px;
+    justify-content: space-between;
+  }

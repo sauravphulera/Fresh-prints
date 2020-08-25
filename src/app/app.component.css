@@ -125,7 +125,17 @@
 .signinBtn:hover {
   cursor: pointer;
 }
-.subtitle-text{
-    width: 40%;
-    font-size: 20px;
+.subtitle-text {
+  width: 40%;
+  font-size: 20px;
+}
+
+.signin-icons {
+  display: flex;
+  width: 11%;
+  min-width: 100px;
+  justify-content: space-around;
+}
+input:focus {
+    outline: none;
 }
